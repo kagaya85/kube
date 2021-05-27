@@ -54,7 +54,7 @@ ResultChan:
 	return w.k.configMap(*cm), nil
 }
 
-func (w *watcher) Close() error {
+func (w *watcher) Stop() error {
 	w.watcher.Stop()
 	return nil
 }
