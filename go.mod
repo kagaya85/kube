@@ -3,15 +3,14 @@ module github.com/go-kratos/kube
 go 1.15
 
 require (
-	github.com/go-kratos/kratos/v2 v2.0.0-rc3
+	github.com/go-kratos/kratos/v2 v2.0.5
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/googleapis/gnostic v0.5.5 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/json-iterator/go v1.1.11
-	golang.org/x/net v0.0.0-20210610132358-84b48f89b13b // indirect
+	go.opentelemetry.io/otel/metric v0.20.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c // indirect
-	golang.org/x/sys v0.0.0-20210611083646-a4fc73990273 // indirect
 	golang.org/x/term v0.0.0-20210503060354-a79de5458b56 // indirect
 	golang.org/x/time v0.0.0-20210611083556-38a9dc6acbc6 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
